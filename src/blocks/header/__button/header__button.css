@@ -1,0 +1,31 @@
+.header__button {
+  margin: 0 10px 0 0;
+  padding: 5px;
+  
+  min-width: 140px;
+  height: 55%;
+  
+  box-sizing: border-box;
+  outline: none;
+  
+  border: none;
+
+  overflow: hidden;
+  text-align: center;
+  
+	font-size: 14px;
+	font-weight: 600;
+	text-decoration: none;
+	
+  color: #001E24;
+	background-color: #4aff25;
+	box-shadow: 0 4px 6px rgb(65 132 144 / 10%), 0 1px 3px rgb(0 0 0 / 8%);
+	cursor: pointer;
+}
+
+.header__button:hover {
+  background-color: black;
+  color: #fff;
+  outline: none;
+  transition: all 0.3s;
+}

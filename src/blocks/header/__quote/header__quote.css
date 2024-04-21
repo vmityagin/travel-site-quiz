@@ -1,0 +1,10 @@
+.header__quote {
+  display: block;
+}
+
+@media (max-width: 614px) {
+  .header__quote {
+    display: none;
+  }
+}
+
